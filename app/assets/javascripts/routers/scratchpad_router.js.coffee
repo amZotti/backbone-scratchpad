@@ -8,8 +8,11 @@ class App.Routers.ScratchpadRouter extends Backbone.Router
     alert("You requested id: #{id}")
 
   index: ->
-    alert("You are accessing the index page")
+    view = new App.Views.Notes(collection: App.AllNotes)
+    $('#container').html(view.render().el)
 
 #});
 
     #The command pattern enables us to pass in function identifiers as strings
+    
+    #We can opt to use CoffeeScript's style of inheritance in place of Backbone's style of inheritance
