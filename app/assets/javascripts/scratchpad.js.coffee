@@ -3,8 +3,9 @@ window.Scratchpad =
   Collections: {}
   Views: {}
   Routers: {}
-  initialize: -> alert 'Hello from Backbone!'
- 
+  initialize: -> console.log("Backbone is up")
+
+
 window.App = window.Scratchpad
 
 $(document).ready ->
