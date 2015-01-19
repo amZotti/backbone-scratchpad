@@ -28,8 +28,6 @@ class NotesController < ApplicationController
   end
 
   def notes
-    puts Note.all
-    puts "works"
     @_notes ||= Note.all
   end
 
