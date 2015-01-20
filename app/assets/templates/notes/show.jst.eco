@@ -6,3 +6,4 @@
   <textarea class="note-content" placeholder="Content..."><%= @note.get("content") %></textarea>
 </div>
 <div class="footer"><button type="submit" class="save">Save</button></div>
+<button class="destroy-note" tabindex="-1">Remove</button>

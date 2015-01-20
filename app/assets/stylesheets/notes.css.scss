@@ -56,4 +56,17 @@
       resize: none;
     }
   }
+
+  .destroy-note {
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    display: none;
+  }
+
+  &:hover {
+    .destroy-note {
+      display: block;
+    }
+  }
 }
